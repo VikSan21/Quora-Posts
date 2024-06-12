@@ -11,3 +11,6 @@ USED :
       9.HTML
       
 A user can add, update, delete, view post/posts.
+
+
+To open : http://localhost:3000/posts
