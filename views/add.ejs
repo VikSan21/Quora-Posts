@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quora Posts</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Quora Posts</h1>
+    </header>
+
+    <main class="addform">
+        <form action="/posts/add" method="post">
+           <div class="username">
+
+            <label for="username">Username : </label>
+            <input type="text" name="username" id="username"
+            placeholder="Enter the username.." required
+            >
+
+           </div>
+
+
+            <div class="content">
+                <label for="content">Content : </label>
+                <textarea name="content" id="content" required></textarea>
+            </div>
+
+
+            <div class="btns">
+                <button type="submit">Post</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <p>Created by VikSan.</p>
+    </footer>
+</body>
+</html>
